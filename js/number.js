@@ -6,7 +6,7 @@ const findGreaterNumber = (array) => {
     array.map((n) => {
       greaterNumber =  n > greaterNumber ?  n : greaterNumber;
     });
-    console.log('the greater numbner is :',greaterNumber);
+    console.log('The greater number of the array ['+ array +'] is :',greaterNumber);
 }
 
 findGreaterNumber(arrayOfNumbers);
